@@ -15,4 +15,4 @@ class Post(models.Model):
         self.save()
 
     def __str__(self):
-        return f'{self.title} ({self.author})'
+        return f'{self.title} -  ({self.author})'
